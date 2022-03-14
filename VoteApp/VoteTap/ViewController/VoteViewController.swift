@@ -36,6 +36,7 @@ class VoteViewController: UIViewController, SendDataDelegate {
         self.dateLabel.text = dateToString(date: selectDate!, format: "yyyy.MM.dd")
         self.memberSet()
         self.buttonSet()
+        
         //textField 클릭 시 이벤트 발생시키기
         self.memberText.addTarget(self, action: #selector(myTargetFunction), for: .touchDown)
         self.totalMemberAdd()
