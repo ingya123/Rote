@@ -37,6 +37,7 @@
 		66AF828A276C64FF00C6B34D /* CommonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AF8289276C64FF00C6B34D /* CommonModel.swift */; };
 		66C0ACE1279FADCE00AB6296 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C0ACE0279FADCE00AB6296 /* SignUp.storyboard */; };
 		66C0ACE3279FB27B00AB6296 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C0ACE2279FB27B00AB6296 /* SignUpVC.swift */; };
+		66D1D44B27DF17CD00F63976 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66D1D44A27DF17CD00F63976 /* GoogleService-Info.plist */; };
 		66D9C6B12775565800B3211A /* VoteWinnerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D9C6B02775565800B3211A /* VoteWinnerVC.swift */; };
 		66EB292027B0DA77007203F4 /* MemberMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EB291F27B0DA77007203F4 /* MemberMenuVC.swift */; };
 		66EB292227B111EB007203F4 /* WinnerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EB292127B111EB007203F4 /* WinnerListVC.swift */; };
@@ -45,9 +46,6 @@
 		66FBA698276819E0009B2B86 /* DateUtill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FBA697276819E0009B2B86 /* DateUtill.swift */; };
 		66FBA69C27686248009B2B86 /* UtillCommom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FBA69B27686248009B2B86 /* UtillCommom.swift */; };
 		66FBA6A0276889B7009B2B86 /* ToDayVoteMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FBA69F276889B7009B2B86 /* ToDayVoteMemberTableViewCell.swift */; };
-		94FC49D36EFABC51B8B2330E /* Pods_Rote_RoteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3916A11B47D589E884C71BCD /* Pods_Rote_RoteUITests.framework */; };
-		C6867AB1A95474A1F18BB5FF /* Pods_RoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101B91E982E461D768BADCB2 /* Pods_RoteTests.framework */; };
-		E40B06DDD9990D19C84FCCD7 /* Pods_Rote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC3F2C78B8A31BB7E9371FE /* Pods_Rote.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,9 +66,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		101B91E982E461D768BADCB2 /* Pods_RoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3916A11B47D589E884C71BCD /* Pods_Rote_RoteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rote_RoteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AC3F2C78B8A31BB7E9371FE /* Pods_Rote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9F4BAF8F7000EC08E9876D /* Pods-Rote-RoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rote-RoteUITests.release.xcconfig"; path = "Target Support Files/Pods-Rote-RoteUITests/Pods-Rote-RoteUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6601FFA72755F3B9007E126A /* AdminMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMainViewController.swift; sourceTree = "<group>"; };
 		6601FFA92755FCCF007E126A /* VotePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotePageViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +101,7 @@
 		66AF8289276C64FF00C6B34D /* CommonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonModel.swift; sourceTree = "<group>"; };
 		66C0ACE0279FADCE00AB6296 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 		66C0ACE2279FB27B00AB6296 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		66D1D44A27DF17CD00F63976 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		66D9C6B02775565800B3211A /* VoteWinnerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteWinnerVC.swift; sourceTree = "<group>"; };
 		66EB291F27B0DA77007203F4 /* MemberMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberMenuVC.swift; sourceTree = "<group>"; };
 		66EB292127B111EB007203F4 /* WinnerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerListVC.swift; sourceTree = "<group>"; };
@@ -126,7 +122,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E40B06DDD9990D19C84FCCD7 /* Pods_Rote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +129,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6867AB1A95474A1F18BB5FF /* Pods_RoteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +136,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94FC49D36EFABC51B8B2330E /* Pods_Rote_RoteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,7 +170,6 @@
 				660F621727393922007D169B /* VoteAppTests */,
 				660F622127393922007D169B /* VoteAppUITests */,
 				BFF5D387C26DAE6A4DFE63F2 /* Pods */,
-				7E8A4530133AD6DF657A9438 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -207,6 +199,7 @@
 				660F620C27393922007D169B /* LaunchScreen.storyboard */,
 				660F620F27393922007D169B /* Info.plist */,
 				66EFA407278BD96700D9FA5C /* LoadingIndicator.swift */,
+				66D1D44A27DF17CD00F63976 /* GoogleService-Info.plist */,
 			);
 			path = VoteApp;
 			sourceTree = "<group>";
@@ -285,16 +278,6 @@
 			children = (
 			);
 			path = Struct;
-			sourceTree = "<group>";
-		};
-		7E8A4530133AD6DF657A9438 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3AC3F2C78B8A31BB7E9371FE /* Pods_Rote.framework */,
-				3916A11B47D589E884C71BCD /* Pods_Rote_RoteUITests.framework */,
-				101B91E982E461D768BADCB2 /* Pods_RoteTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BFF5D387C26DAE6A4DFE63F2 /* Pods */ = {
@@ -422,6 +405,7 @@
 			files = (
 				660F620E27393922007D169B /* LaunchScreen.storyboard in Resources */,
 				660F620B27393922007D169B /* Assets.xcassets in Resources */,
+				66D1D44B27DF17CD00F63976 /* GoogleService-Info.plist in Resources */,
 				660F620927393921007D169B /* Main.storyboard in Resources */,
 				66C0ACE1279FADCE00AB6296 /* SignUp.storyboard in Resources */,
 			);
