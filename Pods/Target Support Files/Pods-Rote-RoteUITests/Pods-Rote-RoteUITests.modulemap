@@ -1,0 +1,6 @@
+framework module Pods_Rote_RoteUITests {
+  umbrella header "Pods-Rote-RoteUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
