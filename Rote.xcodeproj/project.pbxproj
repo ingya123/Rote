@@ -20,7 +20,6 @@
 		660F622327393922007D169B /* VoteAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660F622227393922007D169B /* VoteAppUITests.swift */; };
 		660F622527393922007D169B /* VoteAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660F622427393922007D169B /* VoteAppUITestsLaunchTests.swift */; };
 		6629687327B1F96800555E97 /* WinnerTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6629687227B1F96800555E97 /* WinnerTableCell.swift */; };
-		66423E0C2797E2CC00AED828 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66423E0B2797E2CC00AED828 /* GoogleService-Info.plist */; };
 		666B70B62766E4FB0017F472 /* VoteMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666B70B52766E4FB0017F472 /* VoteMember.swift */; };
 		666B70B82766E6E40017F472 /* VoteMemberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666B70B72766E6E40017F472 /* VoteMemberCell.swift */; };
 		666B70BA276743DD0017F472 /* SemoApiCommom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666B70B9276743DD0017F472 /* SemoApiCommom.swift */; };
@@ -90,7 +89,6 @@
 		660F622227393922007D169B /* VoteAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteAppUITests.swift; sourceTree = "<group>"; };
 		660F622427393922007D169B /* VoteAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6629687227B1F96800555E97 /* WinnerTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerTableCell.swift; sourceTree = "<group>"; };
-		66423E0B2797E2CC00AED828 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		666B70B52766E4FB0017F472 /* VoteMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteMember.swift; sourceTree = "<group>"; };
 		666B70B72766E6E40017F472 /* VoteMemberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteMemberCell.swift; sourceTree = "<group>"; };
 		666B70B9276743DD0017F472 /* SemoApiCommom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemoApiCommom.swift; sourceTree = "<group>"; };
@@ -209,7 +207,6 @@
 				660F620C27393922007D169B /* LaunchScreen.storyboard */,
 				660F620F27393922007D169B /* Info.plist */,
 				66EFA407278BD96700D9FA5C /* LoadingIndicator.swift */,
-				66423E0B2797E2CC00AED828 /* GoogleService-Info.plist */,
 			);
 			path = VoteApp;
 			sourceTree = "<group>";
@@ -424,7 +421,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				660F620E27393922007D169B /* LaunchScreen.storyboard in Resources */,
-				66423E0C2797E2CC00AED828 /* GoogleService-Info.plist in Resources */,
 				660F620B27393922007D169B /* Assets.xcassets in Resources */,
 				660F620927393921007D169B /* Main.storyboard in Resources */,
 				66C0ACE1279FADCE00AB6296 /* SignUp.storyboard in Resources */,
