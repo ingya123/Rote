@@ -27,6 +27,7 @@ class VoteViewController: UIViewController, SendDataDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         backTypeSwipe(nc: navigationController)
         self.memberText.addLeftPadding()
         self.roundView()
